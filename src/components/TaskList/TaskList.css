@@ -1,0 +1,64 @@
+[tasklist].tasklist {
+    width: 90%;
+    margin: 40px auto;
+}
+
+[tasklist] ul {
+    height: 420px;
+    overflow-y: scroll;
+}
+
+[tasklist] li {
+    background-color: #3C1053;
+    color: #E3F3FF;
+    list-style-type: none;
+    padding: 18px 20px;
+    margin: 12px 0;
+    font-size: 22px;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+}
+
+[tasklist] li:first-child {
+    margin-top: 0;
+}
+
+[tasklist] li:last-child {
+    margin-bottom: 0;
+}
+
+[tasklist] li .taskname {
+    width: 80%;
+}
+
+[tasklist] li input {
+    margin-right: 10px;
+}
+
+[tasklist] li .edit-button {
+    width: 30px;
+    color: white;
+}
+
+[tasklist] li .delete-button {
+    width: 30px;
+    margin-left: 15px;
+}
+
+[tasklist] li svg {
+    fill: #E3F3FF;
+}
+
+[tasklist] .completed {
+    text-decoration: line-through;
+}
+
+
+@media (min-width: 760px) {
+
+    [tasklist].tasklist {
+        width: 55%;
+    }
+}

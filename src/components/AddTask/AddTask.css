@@ -1,0 +1,31 @@
+[addtask].addtask {
+    margin-top: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+[addtask].addtask button {
+    padding: 10px 40px;
+
+    font-size: 20px;
+    font-family: 'Open sans', 'sans-serif';
+
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    background-color: #E3F3FF;
+    color: #3C1053;
+
+    border-radius: 10px;
+    border: none;
+
+    user-select: none;
+}
+
+[addtask].addtask button:active {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    background-color: #3C1053;
+    color: #E3F3FF;
+}
